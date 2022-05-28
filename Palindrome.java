@@ -7,6 +7,10 @@ class Palindrome{
 	    	ch=str.charAt(i);
 	    	str1=ch+str1;
 	    }
-	    System.out.println(str.equals(str1));
+	   if(str.equals(str1))
+		System.out.println("Its a palindrome");
+	   else
+	   System.out.println("Its not a palindrome");
+	    
 	}
 }
